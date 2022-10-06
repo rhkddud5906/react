@@ -1,8 +1,9 @@
 import React from 'react'
+import { Container, Title1 } from '../components/Styles/Container/Container.style'
 
 const Questions = () => {
     return (
-        <div>Questions</div>
+        <Container><Title1>Questions</Title1></Container>
     )
 }
 

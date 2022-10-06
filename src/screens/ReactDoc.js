@@ -1,8 +1,9 @@
 import React from 'react'
+import { Container, Title1 } from '../components/Styles/Container/Container.style'
 
 const ReactDoc = () => {
     return (
-        <div>ReactDoc</div>
+        <Container><Title1>ReactDoc</Title1></Container>
     )
 }
 

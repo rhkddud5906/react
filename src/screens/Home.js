@@ -3,7 +3,7 @@ import { Container, Title1 } from '../components/Styles/Container/Container.styl
 
 const Home = () => {
     return (
-        <Container><Title1>HOME</Title1></Container>
+        <Container><Title1>HOME1</Title1></Container>
     )
 }
 
