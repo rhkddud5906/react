@@ -1,10 +1,8 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './screens/Home';
-import About from './screens/About';
-import Projects from './screens/Projects';
-import Questions from './screens/Questions';
-import ReactDoc from './screens/ReactDoc';
+import Users from './screens/Users';
+import SignIn from './screens/SignIn';
+import SignUp from './screens/SignUp';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 
@@ -13,11 +11,9 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Projects" element={<Projects />} />
-        <Route path="/Questions" element={<Questions />} />
-        <Route path="/ReactDoc" element={<ReactDoc />} />
+        <Route path="/SignIn" element={<SignIn />} />
+        <Route path="/SignUp" element={<SignUp />} />
+        <Route path="/Users" element={<Users />} />
       </Routes>
       <Footer />
     </Router>

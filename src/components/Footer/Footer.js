@@ -1,9 +1,10 @@
 import React from 'react';
-import { Footers } from '../Styles/Container/Container.style';
+//import { Footers } from '../Styles/Container/Container.style';
 
 export const Footer = () => {
   return (
-    <Footers>Footer</Footers>
+    // <footer id="footer">Copyrightⓒ 허광영 All right Reserved.</footer>
+    <></>
   )
 }
 
